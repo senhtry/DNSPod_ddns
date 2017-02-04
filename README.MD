@@ -1,16 +1,16 @@
 # DNSPod_ddns
 
-ÕâÊÇÒ»¸öÀûÓÃDNSPodµÄ¶¯Ì¬ÓòÃû½âÎö·þÎñµÄPython½Å±¾£¬¿ÉÒÔ½«ÔËÐÐ±¾½Å±¾µÄÖ÷»úµÄIP¶¯Ì¬¸üÐÂÖÁDNSPodµÄÓòÃû½âÎö·þÎñ
+è¿™æ˜¯ä¸€ä¸ªåˆ©ç”¨DNSPodçš„åŠ¨æ€åŸŸåè§£æžæœåŠ¡çš„Pythonè„šæœ¬ï¼Œå¯ä»¥å°†è¿è¡Œæœ¬è„šæœ¬çš„ä¸»æœºçš„IPåŠ¨æ€æ›´æ–°è‡³DNSPodçš„åŸŸåè§£æžæœåŠ¡
 
-±¾½Å±¾ÀûÓÃÁËDNSPod APIÊµÏÖ£¬APIµÄ°ïÖúÎÄµµ¼û http://www.dnspod.cn/docs/records.html#dns
+æœ¬è„šæœ¬åˆ©ç”¨äº†DNSPod APIå®žçŽ°ï¼ŒAPIçš„å¸®åŠ©æ–‡æ¡£è§ http://www.dnspod.cn/docs/records.html#dns
 
-# Ê¹ÓÃ·½Ê½
+# ä½¿ç”¨æ–¹å¼
 
-1. Git¿ËÂ¡ÖÁ±¾µØ
+1. Gitå…‹éš†è‡³æœ¬åœ°
 
     `git clone https://github.com/senhtry/DNSPod_ddns.git`
 
-2. ±à¼­ddns.conf£¬¿ÉÅäÖÃ¶à¸öÓòÃû½âÎöÖÁ±¾»úIP£¬Ê¾Àý
+2. ç¼–è¾‘ddns.confï¼Œå¯é…ç½®å¤šä¸ªåŸŸåè§£æžè‡³æœ¬æœºIPï¼Œç¤ºä¾‹
 
     ```
     [aa.mydomain.com]
@@ -21,7 +21,7 @@
     RecordID = 123456789
     Domain = mydomain.com
     SubDomain = aa
-    RecordLine = Ä¬ÈÏ
+    RecordLine = é»˜è®¤
     ```
 	
-	ÈçºÎ»ñÈ¡ID¡¢Token¡¢DomainID¡¢RecordIDÇë×ÔÐÐËÑË÷ÍøÉÏÎÄÕÂ£¬ÓÐÏÖ³É·½°¸
+	å¦‚ä½•èŽ·å–IDã€Tokenã€DomainIDã€RecordIDè¯·è‡ªè¡Œæœç´¢ç½‘ä¸Šæ–‡ç« ï¼Œæœ‰çŽ°æˆæ–¹æ¡ˆ
